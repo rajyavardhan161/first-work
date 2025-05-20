@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent {
+    width: 1454px;
+    height: 525px;
+    border: 1px solid black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#parent h1 {
+    width: 250px;
+    height: 250px;
+    background-color: lightsalmon;
+}
